@@ -7,4 +7,4 @@
 ### Some details
 - Works better on Chrome.
 - 79 characters per line.
-- Consolas as default font.
+- `Consolas` as default font.

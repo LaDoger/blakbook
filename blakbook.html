@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -27,7 +26,12 @@
       }
     </style>
   </head>
+  <body onload="focus()">
+    <pre id="box" spellcheck="false" contenteditable="true"></pre>
   <body>
-    <pre spellcheck="false" contenteditable="true"></pre>
-  <body>
+  <script>
+    function focus() {           
+      document.getElementById("box").focus();
+    }
+  </script>
 </html>

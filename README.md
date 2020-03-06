@@ -12,4 +12,4 @@
 ### Some Tips
 - Install a **black** browser theme for absolute blackness!
 - Open **blakbook** in a small independent window in the screen corner so your boss won't see!
-- I haven't thought up a third tip.
+- I haven't thought up of a third tip.

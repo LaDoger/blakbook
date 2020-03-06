@@ -10,5 +10,6 @@
 - `Consolas` as default font.
 
 ### Some Tips
-- Instal a **black** browser theme for absolute blackness!
+- Install a **black** browser theme for absolute blackness!
 - Open **blakbook** in a small independent window in the screen corner so your boss won't see!
+- I haven't thought up a third tip.

@@ -7,7 +7,7 @@
 ### Some Details
 - Works better on Chrome.
 - 79 characters per line.
-- `Consolas` as default font.
+- `Consolas` or `Monaco` as default font.
 
 ### Some Tips
 - Install a **black** browser theme for absolute blackness!

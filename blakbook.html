@@ -6,7 +6,6 @@
     <style>
       * {
         background-color: Black;
-        cursor: context-menu;
       }
       
       pre {
@@ -29,10 +28,6 @@
         width: 5px;
       }
 
-      ::-webkit-scrollbar-track {
-        background: transparent;
-      }
- 
       ::-webkit-scrollbar-thumb {
         background: WhiteSmoke;
         border-radius: 3px;
@@ -45,7 +40,7 @@
   </head>
   <body onload='focus_box()'>
     <pre id='box' spellcheck='false' contenteditable='true'></pre>
-  </body>
+  <body>
   <script>
     function focus_box() {           
       document.getElementById('box').focus();

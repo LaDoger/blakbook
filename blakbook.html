@@ -10,7 +10,7 @@
       
       pre {
         border: 2px solid WhiteSmoke;
-        border-radius: 10px;
+        border-radius: 8px;
         margin: 20px auto;
         padding: 5px 10px 5px;
         height: calc(100vh - 60px);
@@ -22,6 +22,25 @@
         font-size: 24px;
         font-family: Monaco, Inconsolata, Consolas, 'Microsoft YaHei';
         white-space: normal;
+      }
+
+      ::-webkit-scrollbar {
+        width: 5px;
+        border-radius: 3px
+      }
+
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+ 
+      ::-webkit-scrollbar-thumb {
+        background: WhiteSmoke;
+        border-radius: 3px 
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: WhiteSmoke;
+        border-radius: 3px 
       }
 
       pre:focus {

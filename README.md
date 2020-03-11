@@ -15,7 +15,7 @@ The text will be reserved and can be opened in the future for further editing!
 - `ctrl + s` : save.
 - `ctrl + b` : **bold**.
 - `ctrl + i` : *italic*.
-- `ctrl + u` : underscore.
+- `ctrl + u` : underline.
 - `ctrl + +` : zoom in.
 - `ctrl + -` : zoom out.
 - `ctrl + p` : print.

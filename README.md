@@ -12,10 +12,10 @@ The text will be reserved and can be opened in the future for further editing!
 - I haven't come up with a third tip yet.
 
 ### Shortcuts
-- `ctrl + s`: Save.
-- `ctrl + b`: **Bold**.
-- `ctrl + i`: *Italic*.
-- `ctrl + u`: Underscore.
-- `ctrl + +`: Zoom in.
-- `ctrl + -`: Zoom out.
-- `ctrl + p`: Print.
+- `ctrl + s` : save.
+- `ctrl + b` : **bold**.
+- `ctrl + i` : *italic*.
+- `ctrl + u` : underscore.
+- `ctrl + +` : zoom in.
+- `ctrl + -` : zoom out.
+- `ctrl + p` : print.

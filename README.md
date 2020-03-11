@@ -13,9 +13,15 @@ The text will be reserved and can be opened in the future for further editing!
 
 ### Shortcuts
 -`ctrl + s`: Save.
+
 -`ctrl + b`: **Bold**.
+
 -`ctrl + i`: *Italic*.
+
 -`ctrl + u`: Underscore.
+
 -`ctrl + +`: Zoom in.
+
 -`ctrl + -`: Zoom out.
+
 -`ctrl + p`: Print.

@@ -49,6 +49,8 @@
     function changeTitle() {
       var fileName = location.href
       fileName = fileName.replace("\\", "/");
+      fileName = fileName.replace(".html", "");
+      fileName = fileName.replace(".htm", "");
       fileName = fileName.split("/").slice(-1);
       document.title = fileName;
     }

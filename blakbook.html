@@ -47,13 +47,13 @@
     }
 
     function changeTitle() {
-      var fileName = location.href
-      fileName = fileName.replace("\\", "/");
-      fileName = fileName.replace(".html", "");
-      fileName = fileName.replace(".htm", "");
-      fileName = fileName.split("/").slice(-1);
-      fileName += " - blakbook";
-      document.title = fileName;
+      var title = location.href
+      title = title.replace("\\", "/");
+      title = title.replace(".html", "");
+      title = title.replace(".htm", "");
+      title = title.split("/").slice(-1);
+      title += " - blakbook";
+      document.title = title;
     }
 
     function onload() {

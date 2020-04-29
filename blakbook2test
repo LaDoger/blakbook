@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>blakbook</title>
+    <style>
+      html {
+        background-color: Black;
+      }
+      
+      pre {
+        border: 2px solid WhiteSmoke;
+        border-radius: 8px;
+        margin: 20px auto;
+        padding: 5px 5px 5px 10px;
+        height: calc(100vh - 60px);
+        max-width: calc(79ch + 5px);
+        overflow-x: hidden;
+        overflow-y: scroll;
+        color: WhiteSmoke;
+        line-height: 26px;
+        text-align: left;
+        font-size: 24px;
+        font-family: Monaco, Consolas, "Microsoft YaHei";
+        white-space: normal;
+      }
+      
+      pre:focus {
+        outline: none;
+      }
+      
+      ::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: WhiteSmoke;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body onload="onload()">
+    <pre id="box" spellcheck="false" contenteditable="true"></pre>
+  <body>
+  <script>
+    function focusBox() {           
+      document.getElementById("box").focus();
+    }
+
+    function changeTitle() {
+      var title = location.href
+      title = title.replace("\\", "/");
+      title = title.replace(".html", "");
+      title = title.replace(".htm", "");
+      title = title.split("/").slice(-1);
+      title += " - blakbook";
+      document.title = title;
+    }
+
+    function onload() {
+      focusBox();
+      changeTitle();
+    }
+
+    function white() {
+      document.getElementsByTagName("html")[0].style.backgroundColor="WhiteSmoke";
+      with (document.getElementsByTagName("pre")[0].style) {
+        borderColor="Black";
+        color="Black";
+      }
+    }
+
+    function pink() {
+      document.getElementsByTagName("html")[0].style.backgroundColor="Pink";
+      with (document.getElementsByTagName("pre")[0].style) {
+        borderColor="Red";
+        color="Red";
+      }
+    }
+
+    function red() {
+      document.getElementsByTagName("html")[0].style.backgroundColor="Red";
+      with (document.getElementsByTagName("pre")[0].style) {
+        borderColor="Gold";
+        color="Gold";
+      }
+    }
+
+    function matrix() {
+      document.getElementsByTagName("html")[0].style.backgroundColor="Black";
+      with (document.getElementsByTagName("pre")[0].style) {
+        borderColor="Lime";
+        color="Lime";
+      }
+    }
+
+    function blue() {
+      document.getElementsByTagName("html")[0].style.backgroundColor="LightCyan";
+      with (document.getElementsByTagName("pre")[0].style) {
+        borderColor="Navy";
+        color="Navy";
+      }
+    }
+
+    function black() {
+      document.getElementsByTagName("html")[0].style.backgroundColor="Black";
+      with (document.getElementsByTagName("pre")[0].style) {
+        borderColor="WhiteSmoke";
+        color="WhiteSmoke";
+      }
+    }
+  </script>
+</html>

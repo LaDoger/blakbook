@@ -63,50 +63,38 @@
 
     function white() {
       document.getElementsByTagName("html")[0].style.backgroundColor="WhiteSmoke";
-      with (document.getElementsByTagName("pre")[0].style) {
-        borderColor="Black";
-        color="Black";
-      }
+      document.getElementsByTagName("pre")[0].style.borderColor="Black";
+      document.getElementsByTagName("pre")[0].style.color="Black";
     }
 
     function pink() {
       document.getElementsByTagName("html")[0].style.backgroundColor="Pink";
-      with (document.getElementsByTagName("pre")[0].style) {
-        borderColor="Red";
-        color="Red";
-      }
+      document.getElementsByTagName("pre")[0].style.borderColor="Red";
+      document.getElementsByTagName("pre")[0].style.color="Red";
     }
 
     function red() {
       document.getElementsByTagName("html")[0].style.backgroundColor="Red";
-      with (document.getElementsByTagName("pre")[0].style) {
-        borderColor="Gold";
-        color="Gold";
-      }
+      document.getElementsByTagName("pre")[0].style.borderColor="Gold";
+      document.getElementsByTagName("pre")[0].style.color="Gold";
     }
 
     function matrix() {
       document.getElementsByTagName("html")[0].style.backgroundColor="Black";
-      with (document.getElementsByTagName("pre")[0].style) {
-        borderColor="Lime";
-        color="Lime";
-      }
+      document.getElementsByTagName("pre")[0].style.borderColor="Lime";
+      document.getElementsByTagName("pre")[0].style.color="Lime";
     }
 
     function blue() {
       document.getElementsByTagName("html")[0].style.backgroundColor="LightCyan";
-      with (document.getElementsByTagName("pre")[0].style) {
-        borderColor="Navy";
-        color="Navy";
-      }
+      document.getElementsByTagName("pre")[0].style.borderColor="Navy";
+      document.getElementsByTagName("pre")[0].style.color="Navy";
     }
 
     function black() {
       document.getElementsByTagName("html")[0].style.backgroundColor="Black";
-      with (document.getElementsByTagName("pre")[0].style) {
-        borderColor="WhiteSmoke";
-        color="WhiteSmoke";
-      }
+      document.getElementsByTagName("pre")[0].style.borderColor="WhiteSmoke";
+      document.getElementsByTagName("pre")[0].style.color="WhiteSmoke";
     }
   </script>
 </html>

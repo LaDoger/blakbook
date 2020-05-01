@@ -61,40 +61,34 @@
       changeTitle();
     }
 
+    function theme(backgroundColor, color) {
+      document.getElementsByTagName("html")[0].style.backgroundColor=backgroundColor;
+      document.getElementsByTagName("pre")[0].style.borderColor=color;
+      document.getElementsByTagName("pre")[0].style.color=color;
+    }
+
     function white() {
-      document.getElementsByTagName("html")[0].style.backgroundColor="WhiteSmoke";
-      document.getElementsByTagName("pre")[0].style.borderColor="Black";
-      document.getElementsByTagName("pre")[0].style.color="Black";
+      theme("WhiteSmoke", "Black");
     }
 
     function pink() {
-      document.getElementsByTagName("html")[0].style.backgroundColor="Pink";
-      document.getElementsByTagName("pre")[0].style.borderColor="Red";
-      document.getElementsByTagName("pre")[0].style.color="Red";
+      theme("Pink", "Red");
     }
 
     function red() {
-      document.getElementsByTagName("html")[0].style.backgroundColor="Red";
-      document.getElementsByTagName("pre")[0].style.borderColor="Gold";
-      document.getElementsByTagName("pre")[0].style.color="Gold";
+      theme("Red", "Gold");
     }
 
     function matrix() {
-      document.getElementsByTagName("html")[0].style.backgroundColor="Black";
-      document.getElementsByTagName("pre")[0].style.borderColor="Lime";
-      document.getElementsByTagName("pre")[0].style.color="Lime";
+      theme("Black", "Lime");
     }
 
     function blue() {
-      document.getElementsByTagName("html")[0].style.backgroundColor="LightCyan";
-      document.getElementsByTagName("pre")[0].style.borderColor="Navy";
-      document.getElementsByTagName("pre")[0].style.color="Navy";
+      theme("LightCyan", "Navy");
     }
 
     function black() {
-      document.getElementsByTagName("html")[0].style.backgroundColor="Black";
-      document.getElementsByTagName("pre")[0].style.borderColor="WhiteSmoke";
-      document.getElementsByTagName("pre")[0].style.color="WhiteSmoke";
+      theme("Black", "WhiteSmoke");
     }
   </script>
 </html>

@@ -47,10 +47,9 @@
     }
 
     function changeTitle() {
-      var title = location.href
-      title = title.replace("\\", "/").replace(".html", "").replace(".htm", "")
+      document.title = location.href
+        .replace("\\", "/").replace(".html", "").replace(".htm", "")
         .split("/").slice(-1) + " - blakbook";
-      document.title = title;
     }
 
     function onload() {
